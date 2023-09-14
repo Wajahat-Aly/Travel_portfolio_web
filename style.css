@@ -188,13 +188,17 @@
    margin: 12px 0px;
 }
 
-.destination .underline{
-    color: white;
+.underline{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
 }
 
-.destination.underline::after{
-    content: "lol";
-    background-color: red;
+.underline::after{
+    content: "_______________";
+   
     position: absolute;
     top: 0;
     right: 0;
@@ -319,6 +323,11 @@
       object-fit: cover;
     }
     
+
+
+    .underline{
+
+    }
     
    
     
