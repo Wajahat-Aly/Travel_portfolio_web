@@ -91,6 +91,7 @@
 
 }
 
+
 .centercontainer{
     padding: 312px 0px;
     
@@ -189,6 +190,17 @@
 
 .destination .underline{
     color: white;
+}
+
+.destination.underline::after{
+    content: "lol";
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+   
 }
 
 .dropdown{
@@ -308,16 +320,7 @@
     }
     
     
-    .icon::before{
-        content: url(assets/search.svg);
-        position: absolute;
-        top: -10;
-        right: 0;
-        width: 24px;
-        height: 24px;
-        object-fit: contain;
-        font-size: 12px;
+   
     
-    }
     
 }
