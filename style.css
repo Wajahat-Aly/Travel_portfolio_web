@@ -40,8 +40,7 @@
 
 }
 .drawer h1{
-    padding: 0px 22px;
-    
+   
     color: white;
 
     
@@ -122,10 +121,28 @@
     font-size: 67px;
     color: white;
 }
+
+
+
 .discover p{
-    padding: 12px 0px;
+    position: relative;
+   
+    width: 100%;
+    height: 100%;
     font-size: 1rem;
     color: white;
+}
+
+
+.discover.p::before{
+    content: "";
+    position: absolute;
+    
+
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
 }
 
 .btns{
@@ -340,7 +357,7 @@
     
 }
 
-@media screen and (max-width:390px) 
+@media screen and (max-width:540px) 
 {
    
     
@@ -353,4 +370,55 @@
     .menucontainer .centermenu{
        display: none;
     }
+
+    .drawer h1{
+        max-width: 100%;
+        
+    }
+
+    .centercontainer{
+
+        padding: 2px 0px;
+
+    }
+
+    .borderbox{
+
+        display: flex;
+        flex-direction: column;
+        
+
+
+    }
+    .discover{
+
+        max-width: calc(100%);
+        
+
+    }
+    .circle{
+        max-width: calc(100%);
+    }
+
+    .card{
+        max-width: calc(100%);
+    }
+    .btns
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row;
+        
+    }
+    .btns .bt1{
+        font-size: 12px;
+       font-weight: bold;
+    }
+
+    .btns .bt2{
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+
 }
