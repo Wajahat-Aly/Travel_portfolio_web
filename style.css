@@ -1,5 +1,5 @@
-*{
-   
+* {
+
     margin: 0;
 
     padding: 0;
@@ -8,74 +8,81 @@
 
 }
 
-.travel{
-   
+.travel {
+
     margin: 0 auto;
     /* background-color: #a3beea; */
     background-image: url('./assets/bg.png');
-    background-size:cover;
-  
+    background-size: cover;
+
     background-position: center;
     background-repeat: no-repeat;
 }
-.menucontainer{
+
+.menucontainer {
     max-width: 1760px;
     margin: 0 auto;
-    
-    
+
+
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 28px;
 }
-.drawer{
+
+.drawer {
     display: flex;
     align-items: center;
     max-width: calc(30% - 33px)
 }
-.drawer img{
+
+.drawer img {
     max-width: 52px;
 
 }
-.drawer h1{
-   
+
+.drawer h1 {
+
     color: white;
 
-    
+
 }
-.centermenu{
+
+.centermenu {
     max-width: calc(40%- 33px);
-  
-    
-    
+
+
+
 }
-.centermenu ul li{
+
+.centermenu ul li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
     padding: 12px;
     font-size: 22;
     color: white;
-    
+
 }
 
 
 
 
 
-.searchside{
+.searchside {
     max-width: calc(30% - 33px);
     color: white;
-    
+
 }
 
-.icon{
+.icon {
 
-  position: relative;
-  width: 100%;
-  height: 100%
+    position: relative;
+    width: 100%;
+    height: 100%
 }
 
 
@@ -83,7 +90,7 @@
 
 
 
-.icon::before{
+.icon::before {
     content: url(assets/search.svg);
     position: absolute;
     top: -10;
@@ -96,48 +103,49 @@
 }
 
 
-.centercontainer{
+.centercontainer {
     padding: 312px 0px;
-    
+
 }
-.borderbox{
-   
+
+.borderbox {
+
     max-width: 1760px;
 
-    
+
     display: flex;
     justify-content: space-between;
     padding: 26px;
 }
 
 
-.discover{
+.discover {
     max-width: calc(30% - 33px);
 
-   
+
 }
 
-.discover h1{
+.discover h1 {
     font-size: 67px;
     color: white;
 }
 
 
 
-.discover p{
+.discover p {
     position: relative;
-   
+
     width: 100%;
-    height: 100%;
+
     font-size: 1rem;
     color: white;
 }
 
 
-.discover.p::before{
+.discover.p::before {
     content: "";
     position: absolute;
-    
+
 
     top: 0%;
     right: 0%;
@@ -145,13 +153,14 @@
     height: 100%;
 }
 
-.btns{
+.btns {
     margin: 12px 0px;
-    
-    
-    
+
+
+
 }
-.btns .bt1{
+
+.btns .bt1 {
 
 
     border-radius: 29px;
@@ -160,14 +169,14 @@
     border: 2px solid white;
     color: rgb(255, 183, 0);
     background-color: white;
- 
+
 }
 
-.btns .bt2{
+.btns .bt2 {
 
     border-radius: 29px;
     padding: 4px 18px;
-    
+
     font-size: 29;
     border: 2px solid white;
     color: white;
@@ -175,91 +184,93 @@
 }
 
 
-.circle{
+.circle {
     align-items: center;
     max-width: calc(40% - 12px);
-    
-    
+
+
 }
 
 
-.card{
+.card {
     max-width: calc(30% - 12px);
-    
+
 }
 
-.uptext{
+.uptext {
     background-color: #e2ebf678;
     padding: 42px 52px 12px 32px;
-   border-radius: 12px 12px 0px 0px;
+    border-radius: 12px 12px 0px 0px;
 }
 
-.innertext{
+.innertext {
 
     display: flex;
 
-    
+
     flex-direction: column;
     justify-content: space-between;
 }
 
-.destination{
-  padding: 22px 0px;
-}
-.destination .city{
-   margin: 12px 0px;
+.destination {
+    padding: 22px 0px;
 }
 
-.underline{
+.destination .city {
+    margin: 12px 0px;
+}
+
+.underline {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
+
 }
 
-.underline::after{
+.underline::after {
     content: "";
     border: 0px solid red;
-   
+
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 100%;
-   
+
 }
 
-.dropdown{
+.dropdown {
     position: relative;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.dropdown::before{
- content: url(assets/dropdown.png);
- position: absolute;
- width: 24px;
- height: 24px;
- top: -26px;
- right:0;
+.dropdown::before {
+    content: url(assets/dropdown.png);
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -26px;
+    right: 0;
 }
 
 
-.yellowbtn{
+.yellowbtn {
     background-color: rgb(255, 179, 0);
     padding: 26px 0px;
     text-align: center;
-    
-   
+
+
 }
-.yellowbtn h1{
+
+.yellowbtn h1 {
     font-weight: 1900;
     color: white;
 }
 
-.buttomlinetext{
+.buttomlinetext {
     color: white;
     font-weight: 200;
     text-align: center;
@@ -268,20 +279,20 @@
 }
 
 
-@media screen and (max-width:1577px){
-    .discover h1{
+@media screen and (max-width:1577px) {
+    .discover h1 {
         font-size: 57px;
 
     }
 }
 
-@media screen and (max-width:1390px){
-    .discover h1{
+@media screen and (max-width:1390px) {
+    .discover h1 {
         font-size: 37px;
 
     }
-    
-    .btns{
+
+    .btns {
         display: flex;
         flex-flow: row wrap;
         gap: 12px;
@@ -291,131 +302,132 @@
 
 
 @media screen and (max-width:391px) {
-    .navbar{
+    .navbar {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 28px;
     }
 
-    .drawer{
+    .drawer {
         display: flex;
         align-items: center;
         max-width: calc(30% - 33px)
     }
-    .drawer img{
+
+    .drawer img {
         max-width: 52px;
-    
+
     }
-    .drawer h1{
+
+    .drawer h1 {
         padding: 0px 22px;
-        
+
         color: white;
-    
-        
+
+
     }
-    .centermenu{
+
+    .centermenu {
         max-width: calc(40%- 33px);
-      
-        
-        
+
+
+
     }
-    .centermenu ul li{
+
+    .centermenu ul li {
         display: inline-block;
         list-style: none;
         text-decoration: none;
         padding: 12px;
         font-size: 22;
         color: white;
-        
+
     }
-    
-    
-    
-    
-    
-    .searchside{
+
+
+
+
+
+    .searchside {
         max-width: calc(30% - 33px);
         color: white;
-        
-    }
-    
-    .icon{
-    
-      position: relative;
-      object-fit: cover;
-    }
-    
-
-
-    .underline{
 
     }
-    
-   
-    
-    
+
+    .icon {
+
+        position: relative;
+        object-fit: cover;
+    }
+
+
+
+    .underline {}
+
+
+
+
 }
 
-@media screen and (max-width:540px) 
-{
-   
-    
+@media screen and (max-width:788px) {
 
-    .menucontainer h1{
-       
-       
+
+
+    .menucontainer h1 {}
+
+    .menucontainer .centermenu {
+        display: none;
     }
 
-    .menucontainer .centermenu{
-       display: none;
-    }
-
-    .drawer h1{
+    .drawer h1 {
         max-width: 100%;
-        
+
     }
 
-    .centercontainer{
+    .centercontainer {
 
         padding: 2px 0px;
 
     }
 
-    .borderbox{
+    .borderbox {
 
         display: flex;
         flex-direction: column;
-        
+
 
 
     }
-    .discover{
+
+    .discover {
 
         max-width: calc(100%);
-        
+
 
     }
-    .circle{
+
+    .circle {
         max-width: calc(100%);
     }
 
-    .card{
+    .card {
         max-width: calc(100%);
     }
-    .btns
-    {
+
+    .btns {
         display: flex;
         justify-content: space-around;
         flex-flow: row;
-        
-    }
-    .btns .bt1{
-        font-size: 12px;
-       font-weight: bold;
+
     }
 
-    .btns .bt2{
+    .btns .bt1 {
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .btns .bt2 {
         font-size: 1em;
         font-weight: bold;
     }
